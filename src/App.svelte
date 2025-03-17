@@ -1,4 +1,22 @@
-<main class="min-h-screen flex flex-col items-center justify-center text-center bg-gray-100 text-gray-800">
-  <h1 class="text-5xl font-bold text-blue-600">🚀 Hello Tailwind + Svelte!</h1>
-  <p class="mt-4 text-lg">You're ready to build your portfolio.</p>
+<script>
+  import Hero from './components/Hero.svelte';
+  import About from './components/About.svelte';
+  import Projects from './components/Projects.svelte';
+  import Contact from './components/Contact.svelte';
+
+  let dark = false;
+
+  function toggleDark() {
+    dark = !dark;
+    const html = document.documentElement;
+    html.classList.toggle('dark', dark);
+  }
+</script>
+
+<main class="min-h-screen bg-base text-highlight dark:bg-highlight dark:text-black transition-colors duration-300">
+
+  <Hero />
+  <About />
+  <Projects />
+  <Contact />
 </main>
