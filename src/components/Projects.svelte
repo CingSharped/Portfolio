@@ -30,7 +30,7 @@ let projects = [
   {
     title: 'Propertease',
     description: 'A fullstack property management app with 3D IFC/BIM integration using IFC.js. Landlords, tenants, and service workers manage properties and maintenance linked to specific elements in the 3D model. Helps monitor profits and streamlines maintenance.',
-    skills: ['Vite', 'React', 'Vitest', 'Jest', 'Express', 'Mongoose', 'MongoDB'],
+    skills: ['Vite', 'React', 'Vitest', 'Jest', 'Express', 'Mongoose', 'MongoDB', 'ChartJS'],
     frontendRepo: 'https://github.com/CingSharped/propertease/tree/staging/frontend',
     backendRepo: 'https://github.com/CingSharped/propertease/tree/staging/backend'
   }
