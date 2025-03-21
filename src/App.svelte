@@ -18,5 +18,5 @@
   <Hero />
   <About />
   <Projects />
-  <Contact />
+  <!-- <Contact /> -->
 </main>
