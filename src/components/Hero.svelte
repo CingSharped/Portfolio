@@ -7,7 +7,7 @@
   </p>
   <a 
     href="#projects" 
-    class="mt-8 px-8 py-4 bg-red-600 text-white font-semibold rounded-full shadow-md hover:shadow-lg hover:bg-red-700 transition-all duration-300 ease-in-out"
+    class="mt-8 px-8 py-4 bg-red-600 text-white font-semibold rounded-full shadow-md hover:shadow-lg hover:bg-red-700 transition-all duration-200 ease-in-out"
   >
     🚀 View My Work
   </a>
